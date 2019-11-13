@@ -60,6 +60,14 @@ header {
     background-color: #9078AD;
     /* #main_title {
     display: inline-block; */
+    background: rgba(99, 1, 123, 1);
+    background: -moz-linear-gradient(left, rgba(99, 1, 123, 1) 0%, rgba(99, 1, 123, 1) 25%, rgba(170, 127, 180, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(99, 1, 123, 1)), color-stop(25%, rgba(99, 1, 123, 1)), color-stop(100%, rgba(170, 127, 180, 1)));
+    background: -webkit-linear-gradient(left, rgba(99, 1, 123, 1) 0%, rgba(99, 1, 123, 1) 25%, rgba(170, 127, 180, 1) 100%);
+    background: -o-linear-gradient(left, rgba(99, 1, 123, 1) 0%, rgba(99, 1, 123, 1) 25%, rgba(170, 127, 180, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(99, 1, 123, 1) 0%, rgba(99, 1, 123, 1) 25%, rgba(170, 127, 180, 1) 100%);
+    background: linear-gradient(to right, rgba(99, 1, 123, 1) 0%, rgba(99, 1, 123, 1) 25%, rgba(170, 127, 180, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#63017b', endColorstr='#aa7fb4', GradientType=1);
 }
 
 header h1 {
@@ -189,6 +197,7 @@ aside {
     padding: 10px;
     color: white;
     font-size: 0.9em;
+    text-align: center;
 }
 
 #arrow {
