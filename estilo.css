@@ -299,7 +299,7 @@ footer #asociados {
 /* Table 1 Style */
 
 table.table1 {
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: bold;
     line-height: 1.4em;
@@ -321,6 +321,7 @@ table.table1 {
     -moz-border-radius: 5px 5px 0px 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    text-align: center;
 }
 
 .table1 thead th:empty {
@@ -331,6 +332,7 @@ table.table1 {
 .table1 tbody th {
     color: #fff;
     text-shadow: 1px 1px 1px #568F23;
+    text-align: center;
     background-color: #9DD929;
     border: 1px solid #93CE37;
     border-right: 3px solid #9ED929;
